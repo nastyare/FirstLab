@@ -22,7 +22,7 @@ namespace task2
                     } while (convertedVariable > 10);
                 }
             } while (convertedVariable > 100);
-
+            //remove ищет элемент в строке с индексом 1 и удаляет только его 
             int n = int.Parse(x.ToString().Remove(1, 1) + convertedVariable);
 
             Console.WriteLine("Результат: " + n);
