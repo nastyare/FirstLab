@@ -14,14 +14,14 @@ namespace task2
             do
             {
                 convertedVariable = convertedVariable / 10;
-                if (convertedVariable < 100)
+                if (convertedVariable <= 100)
                 {
                     do
                     {
                         convertedVariable = convertedVariable - 10;
-                    } while (convertedVariable > 10);
+                    } while (convertedVariable >= 10);
                 }
-            } while (convertedVariable > 100);
+            } while (convertedVariable >= 100);
             //remove ищет элемент в строке с индексом 1 и удаляет только его 
             int n = int.Parse(x.ToString().Remove(1, 1) + convertedVariable);
 
